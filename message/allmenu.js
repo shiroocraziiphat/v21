@@ -1,6 +1,6 @@
 
 {
-botname = "Yuki Bot"
+botname = "Shiro Botz"
 
 
 exports.allmenu = (prefix) => {
