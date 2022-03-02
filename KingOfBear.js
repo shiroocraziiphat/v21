@@ -85,7 +85,7 @@ kimak3 = "Gak Subscribe Gak Work Tod...!!!"
 xteamkey = "7415bc4287ad5ca8"
 target = `${control.NomorOwner}@s.whatsapp.net` //Ganti jadi nomor lu
 watermark = `${control.NamaBot}`
-thumbnail = fs.readFileSync(`./foto/KingOfBear.jpg`)
+thumbnail = fs.readFileSync(`./foto/elaina.jpg`)
 
 const { getBuffer, getGroupAdmins, getRandom, runtime, sleep } = require('./lib/myfunc')
 const { fetchJson, getBase64, kyun, createExif } = require('./lib/fetch')
@@ -335,13 +335,13 @@ module.exports = KingOfBear = async (KingOfBear, KingOfBearf) => {
     timestampe = speed();
     latensie = speed() - timestampe
     const ftroli = { key: { fromMe: false, "participant": "0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us" }, "message": { orderMessage: { itemCount: 99999999999, status: 200, thumbnail: await (await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/img1.png`)).buffer(), surface: 200, message: `Runtime:${runtime(process.uptime())}   `, orderTitle: `${control.NamaBot}`, sellerJid: '0@s.whatsapp.net' } }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, senKingOfBearfhemeral: true }
-    const fdoc = { key: { participant: '0@s.whatsapp.net' }, message: { documentMessage: { title: `${control.NamaBot}`, jpegThumbnail: fs.readFileSync(`./foto/KingOfBear.jpg`) } } }
+    const fdoc = { key: { participant: '0@s.whatsapp.net' }, message: { documentMessage: { title: `${control.NamaBot}`, jpegThumbnail: fs.readFileSync(`./foto/elaina.jpg`) } } }
     const fvn = { key: { participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "audioMessage": { "mimetype": "audio/ogg; codecs=opus", "seconds": 99999, "ptt": "true" } } }
-    const fgif = { key: { participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": { "title": `${control.NamaBot}`, "h": `Hmm`, 'seconds': '99999', 'gifPlayback': 'true', 'caption': `${control.NamaBot}`, 'jpegThumbnail': fs.readFileSync(`./foto/KingOfBear.jpg`) } } }
-    const fgclink = { key: { participant: "0@s.whatsapp.net", "remoteJid": "0@s.whatsapp.net" }, "message": { "groupInviteMessage": { "groupJid": "6288213840883-1616169743@g.us", "inviteCode": "m", "groupName": "P", "caption": `${control.NamaBot}`, 'jpegThumbnail': fs.readFileSync(`./foto/KingOfBear.jpg`) } } }
-    const fvideo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": { "title": `${control.NamaBot}`, "h": `Hmm`, 'seconds': '99999', 'caption': `${control.NamaBot}`, 'jpegThumbnail': fs.readFileSync(`./foto/KingOfBear.jpg`) } } }
-    const floc = { key: { participant: '0@s.whatsapp.net' }, message: { locationMessage: { name: `Runtime :${runtime(process.uptime())}\n   Speed :${latensie.toFixed(4)} detik `, jpegThumbnail: fs.readFileSync(`./foto/KingOfBear.jpg`) } } }
-    const fkontak = { key: { participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `6283136505591-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `@KingOfBeargns`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;@KingOfBeargns,;;;\nFN:@KingOfBeargns,\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync(`./foto/KingOfBear.jpg`), thumbnail: fs.readFileSync(`./foto/KingOfBear.jpg`), senKingOfBearfhemeral: true } } }
+    const fgif = { key: { participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": { "title": `${control.NamaBot}`, "h": `Hmm`, 'seconds': '99999', 'gifPlayback': 'true', 'caption': `${control.NamaBot}`, 'jpegThumbnail': fs.readFileSync(`./foto/elaina.jpg`) } } }
+    const fgclink = { key: { participant: "0@s.whatsapp.net", "remoteJid": "0@s.whatsapp.net" }, "message": { "groupInviteMessage": { "groupJid": "6288213840883-1616169743@g.us", "inviteCode": "m", "groupName": "P", "caption": `${control.NamaBot}`, 'jpegThumbnail': fs.readFileSync(`./foto/elaina.jpg`) } } }
+    const fvideo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": { "title": `${control.NamaBot}`, "h": `Hmm`, 'seconds': '99999', 'caption': `${control.NamaBot}`, 'jpegThumbnail': fs.readFileSync(`./foto/elaina.jpg`) } } }
+    const floc = { key: { participant: '0@s.whatsapp.net' }, message: { locationMessage: { name: `Runtime :${runtime(process.uptime())}\n   Speed :${latensie.toFixed(4)} detik `, jpegThumbnail: fs.readFileSync(`./foto/elaina.jpg`) } } }
+    const fkontak = { key: { participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `6283136505591-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `@KingOfBeargns`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;@KingOfBeargns,;;;\nFN:@KingOfBeargns,\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync(`./foto/elaina.jpg`), thumbnail: fs.readFileSync(`./foto/elaina.jpg`), senKingOfBearfhemeral: true } } }
     var fakeReplyList = ['ftroli', 'fdoc', 'fvn', 'fgif', 'fgclink', 'fvideo', 'floc', 'fkontak']
     const replylinkig = (teks) => {
       KingOfBear.sendMessage(from, teks, text, { sendEphemeral: true, quoted: ftroli, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply: { title: `Hiii ${pushname}`, body: "", mediaType: "2", thumbnail: thumbnail, mediaUrl: `https://www.instagram.com/drak_ipul123` } } })
@@ -354,7 +354,7 @@ module.exports = KingOfBear = async (KingOfBear, KingOfBearf) => {
             participant: `0@s.whatsapp.net`, ...(from ? {
               remoteJid: "6289523258649-1604595598@g.us"
             } : {})
-          }, message: { "orderMessage": { "orderId": "174238614569481", "thumbnail": fs.readFileSync(`./foto/KingOfBear.jpg`), "itemCount": 10, "status": "INQUIRY", "surface": "CATALOG", "message": `${control.NamaBot}`, "token": "AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA==" } }
+          }, message: { "orderMessage": { "orderId": "174238614569481", "thumbnail": fs.readFileSync(`./foto/elaina.jpg`), "itemCount": 10, "status": "INQUIRY", "surface": "CATALOG", "message": `${control.NamaBot}`, "token": "AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA==" } }
         }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, senKingOfBearfhemeral: true
       })
     }
@@ -1258,7 +1258,7 @@ if (isGroup) {
         var kic = `${sender.split("@")[0]}@s.whatsapp.net`
         setTimeout(() => {
           KingOfBear.groupRemove(from, [kic]).catch((e) => { KingOfBear.reply(from, global.db.mess.BotAdmin, KingOfBearf) })
-          KingOfBear.sendMessage(`6289512545999@s.whatsapp.net`, `wa.me/${sender.split("@")[0]}\n telah mengirim Virtex ❗`, MessageType.text, { contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply: { title: "KingOfBear botz", body: "", previewType: "PHOTO", thumbnail: fs.readFileSync('./foto/KingOfBear.jpg'), sourceUrl: "https://wa.me/6289512545999" } } })
+          KingOfBear.sendMessage(`6289512545999@s.whatsapp.net`, `wa.me/${sender.split("@")[0]}\n telah mengirim Virtex ❗`, MessageType.text, { contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply: { title: "KingOfBear botz", body: "", previewType: "PHOTO", thumbnail: fs.readFileSync(`./foto/elaina.jpg`), sourceUrl: "https://wa.me/6289512545999" } } })
         }, 7000)
         setTimeout(() => {
           KingOfBear.sendMessage(from, '_1 Detik lagi..._', text, { quoted: fkontak })
@@ -1566,7 +1566,7 @@ if (isGroup) {
         menu = `halo kak saya ${control.NamaBot}`
         buttons = [{ buttonId: `${prefix}command`, buttonText: { displayText: 'sɪᴍᴘʟᴇ ᴍᴇɴᴜ' }, type: 1 }, { buttonId: `${prefix}donate`, buttonText: { displayText: 'ᴅᴏɴᴀsɪ' }, type: 1 }]
 
-        imageMsg = (await KingOfBear.prepareMessageMedia(fs.readFileSync(`./foto/KingOfBear.jpg`), 'imageMessage', { thumbnail: fs.readFileSync(`./foto/KingOfBear.jpg`) })).imageMessage
+        imageMsg = (await KingOfBear.prepareMessageMedia(fs.readFileSync(`./foto/elaina.jpg`), 'imageMessage', { thumbnail: fs.readFileSync(`./foto/elaina.jpg`) })).imageMessage
 
         buttonsMessage = {
           contentText: `${menu}`,
@@ -1640,7 +1640,7 @@ Spam Bot = Ban + Block
               body: `${ucapanWaktu} Semoga harimu menyenangkan`,
               mediaType: 2,
               mediaUrl: "https://www.instagram.com/drak_ipul123",
-              thumbnail: fs.readFileSync('./foto/KingOfBear.jpg'),
+              thumbnail: fs.readFileSync('./foto/elaina.jpg'),
             }, forwardingScore: 508, isForwarded: true, mentionedJid: [Tag + '@s.whatsapp.net', senderr]                        
           }
         })
@@ -1651,7 +1651,7 @@ Spam Bot = Ban + Block
         stod = `${sender}`
         listMsg = {
           buttonText: 'Click Here',
-          footerText: `© Creator By KingOfBear Official`,
+          footerText: `©𝚂𝚑𝚒𝚛𝚘𝙱𝚘𝚝𝚣``,
           description: `hallo kak silahkan pilih disini kak, jangan spam ya kak`,
           sections: [
             {
@@ -1871,7 +1871,7 @@ Spam Bot = Ban + Block
         timestampe = speed();
         latensie = speed() - timestampe
         yuu = `${runtime(process.uptime())}`
-        buf = fs.readFileSync('./foto/KingOfBear.jpg'),
+        buf = fs.readFileSync(`./foto/elaina.jpg`),
           imeu = await KingOfBear.prepareMessage('0@s.whatsapp.net', buf, image)
         imeg = imeu.message.imageMessage
         res = await KingOfBear.prepareMessageFromContent(from, {
@@ -1879,7 +1879,7 @@ Spam Bot = Ban + Block
             "product": {
               "productImage": imeg,
               "productId": "150453297177375",
-              "title": `*ALLMENU YUKI BOT*`,
+              "title": `*ALLMENU SHIRO BOTZ*`,
               "description": `MENU NYA
 `,
               "currencyCode": "SEWABOT =",
