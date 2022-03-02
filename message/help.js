@@ -1,6 +1,6 @@
 
 {
-  botname = "Yuki Bot"
+  botname = "ShiroBotz"
 
 
   exports.apkmenu = (prefix) => {
